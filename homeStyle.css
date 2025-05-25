@@ -13,9 +13,20 @@ li {
 .hero {
     box-sizing: border-box;
     width: 100vw;
+    /* height: 80vh; */
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0px 80px 30px 80px;
+    /* padding: 0px 80px 30px 80px; */
+}
+
+#hero1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#hero2 {
+    font-size: 18px;
+    color: #E5E7Eb;
 }
 
 .header-logo {
@@ -23,16 +34,53 @@ li {
     font-weight: 900;
 }
 
+.hero-image {
+    width: 300px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .header * {
     display: flex;
-    margin: 12px;
+    gap: 20px;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.hero-body {
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    /* height: 90%; */
+    margin: 100px 200px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: #787878;
+    text-align: center;
+    margin-left: 100px;
+    height: 261.6px;
+}
+
+.hero-text {
+    flex: 1;
+}
 
 
