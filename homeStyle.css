@@ -8,7 +8,12 @@ body {
 li {
     list-style-type: none;
     font-size: 18px;
-    
+    justify-content: center;
+    width: 150px;
+}
+
+#li-1 , #li-2{
+    border-right: 3px solid #E5E7Eb;
 }
 
 a {
@@ -67,14 +72,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 200px;
+    padding: 5px 100px;
     background-color: #040713;
     color: #F9FAF8;
 }
 
 .header * {
     display: flex;
-    gap: 20px;
 }
 
 button {
