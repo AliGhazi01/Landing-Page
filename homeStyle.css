@@ -75,6 +75,7 @@ a {
     padding: 5px 100px;
     background-color: #040713;
     color: #F9FAF8;
+    box-shadow: 20px 0px 10px rgba(0,0,0,0.9);
 }
 
 .header * {
@@ -141,5 +142,25 @@ button {
     text-align: end;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #040713;
+    color: #F9FAF8;
+    text-align: center;
+    gap: 5px;
+    padding: 10px 0px;
+}
+
+.tc-logo {
+    height: 40px;
+}
+
+.tc-text {
+    margin-top: 5px;
+    height: 25px;
+    align-self: center;
+}
 
 
